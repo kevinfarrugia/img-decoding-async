@@ -1,1 +1,1 @@
-# Image Lazy Loading Demo
+# Image Async Decoding Demo
