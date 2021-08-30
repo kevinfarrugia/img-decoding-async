@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <title>decoding=async demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      div {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      img {
+        display: inline;
+        margin: 1em;
+      }
+      .fail img {
+        display: none;
+      }
+      pre {
+        border: 2px solid red;
+      }
+      .fail pre {
+        border-color: red;
+        background: pink;
+      }
+      .pass pre {
+        border-color: darkgreen;
+        background: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <pre><code>'decoding' in HTMLImageElement.prototype === <span>true</span></code></pre>
+    <script>
+      const hasSupport = "decoding" in HTMLImageElement.prototype;
+      document.documentElement.className = hasSupport ? "pass" : "fail";
+      document.querySelector("span").textContent = hasSupport;
+    </script>
+    <h2>Subtitle</h2>
+    <div>
+      <img
+        decoding="async"
+        src="https://placekitten.com/101/101"
+        width="101"
+        height="101"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/102/102"
+        width="102"
+        height="102"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/103/103"
+        width="103"
+        height="103"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/104/104"
+        width="104"
+        height="104"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/105/105"
+        width="105"
+        height="105"
+        alt=""
+      />
+    </div>
+    <h2>Subtitle</h2>
+    <div>
+      <img
+        decoding="async"
+        src="https://placekitten.com/201/201"
+        width="201"
+        height="201"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/202/202"
+        width="202"
+        height="202"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/203/203"
+        width="203"
+        height="203"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/204/204"
+        width="204"
+        height="204"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/205/205"
+        width="205"
+        height="205"
+        alt=""
+      />
+    </div>
+    <h2>Subtitle</h2>
+    <div>
+      <img
+        decoding="async"
+        src="https://placekitten.com/301/301"
+        width="301"
+        height="301"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/302/302"
+        width="302"
+        height="302"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/303/303"
+        width="303"
+        height="303"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/304/304"
+        width="304"
+        height="304"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/305/305"
+        width="305"
+        height="305"
+        alt=""
+      />
+    </div>
+    <h2>Subtitle</h2>
+    <div>
+      <img
+        decoding="async"
+        src="https://placekitten.com/401/401"
+        width="401"
+        height="401"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/402/402"
+        width="402"
+        height="402"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/403/403"
+        width="403"
+        height="403"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/404/404"
+        width="404"
+        height="404"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/405/405"
+        width="405"
+        height="405"
+        alt=""
+      />
+    </div>
+    <h2>Subtitle</h2>
+    <div>
+      <img
+        decoding="async"
+        src="https://placekitten.com/501/501"
+        width="501"
+        height="501"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/502/502"
+        width="502"
+        height="502"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/503/503"
+        width="503"
+        height="503"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/504/504"
+        width="504"
+        height="504"
+        alt=""
+      />
+      <img
+        decoding="async"
+        src="https://placekitten.com/505/505"
+        width="505"
+        height="505"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
